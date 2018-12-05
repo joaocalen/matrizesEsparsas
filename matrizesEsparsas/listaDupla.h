@@ -14,18 +14,29 @@
 #ifndef LISTADUPLA_H
 #define LISTADUPLA_H
 
+#include "celula.h"
+
+
 #ifdef __cplusplus
 extern "C" {
 #endif
 
     typedef struct listadupla ListaDupla;
-    
+
     typedef struct listaduplaCelula ListaDuplaCelula;
-    
+
     ListaDupla* listaDupla_criaVazia();
-    
+
     ListaDupla* listaDupla_cria();
-    
+
+    void insere(ListaDupla* lista, Celula* celula);
+
+    Celula* retira(ListaDupla* lista, int i, int j);
+
+    ListaDupla* libera(ListaDupla* lista);
+
+    void imprime(ListaDupla* lista);
+
 
 
 #ifdef __cplusplus
