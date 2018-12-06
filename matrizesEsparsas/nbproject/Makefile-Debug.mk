@@ -36,7 +36,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/celula.o \
-	${OBJECTDIR}/lsitaDupla.o \
+	${OBJECTDIR}/listaCruzada.o \
 	${OBJECTDIR}/main.o
 
 
@@ -69,10 +69,10 @@ ${OBJECTDIR}/celula.o: celula.c
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/celula.o celula.c
 
-${OBJECTDIR}/lsitaDupla.o: lsitaDupla.c
+${OBJECTDIR}/listaCruzada.o: listaCruzada.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/lsitaDupla.o lsitaDupla.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/listaCruzada.o listaCruzada.c
 
 ${OBJECTDIR}/main.o: main.c
 	${MKDIR} -p ${OBJECTDIR}

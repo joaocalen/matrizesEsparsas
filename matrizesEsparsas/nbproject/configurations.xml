@@ -5,13 +5,13 @@
                    displayName="Arquivos de Cabeçalho"
                    projectFiles="true">
       <itemPath>celula.h</itemPath>
-      <itemPath>listaDupla.h</itemPath>
+      <itemPath>listaCruzada.h</itemPath>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Arquivos de Código-Fonte"
                    projectFiles="true">
       <itemPath>celula.c</itemPath>
-      <itemPath>lsitaDupla.c</itemPath>
+      <itemPath>listaCruzada.c</itemPath>
       <itemPath>main.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -44,9 +44,9 @@
       </item>
       <item path="celula.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="listaDupla.h" ex="false" tool="3" flavor2="0">
+      <item path="listaCruzada.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="lsitaDupla.c" ex="false" tool="0" flavor2="0">
+      <item path="listaCruzada.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -75,9 +75,9 @@
       </item>
       <item path="celula.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="listaDupla.h" ex="false" tool="3" flavor2="0">
+      <item path="listaCruzada.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="lsitaDupla.c" ex="false" tool="0" flavor2="0">
+      <item path="listaCruzada.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
       </item>

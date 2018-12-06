@@ -26,7 +26,7 @@ Celula* celula_criaVazia() {
 }
 
 int celula_Vazia(Celula* celula) {
-    return !(celula == NULL);
+    return (celula == NULL);
 }
 
 int celula_getI(Celula* celula) {
@@ -41,7 +41,7 @@ int celula_getJ(Celula* celula) {
     return 0;
 }
 
-int celula_getConteudo(Celula* celula) {
+float celula_getConteudo(Celula* celula) {
     if (!celula_Vazia(celula))
         return celula -> conteudo;
     return 0;

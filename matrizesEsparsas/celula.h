@@ -30,7 +30,7 @@ extern "C" {
     
     int celula_getJ(Celula* celula);
     
-    int celula_getConteudo(Celula* celula);  
+    float celula_getConteudo(Celula* celula);  
 
 
 #ifdef __cplusplus
